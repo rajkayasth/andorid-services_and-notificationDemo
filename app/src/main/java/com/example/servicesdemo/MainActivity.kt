@@ -105,6 +105,7 @@ class MainActivity : AppCompatActivity() {
             }
             notificationManager.notify(1234, builder.build())
         }
+        //demo branch created
 
         binding.btnStartService.setOnClickListener {
             startService(Intent(this, NewService::class.java))
